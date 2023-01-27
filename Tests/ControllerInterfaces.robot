@@ -31,7 +31,7 @@ Evaluate Ipaddress Module Expression
 Compute Network IP Address From Interface
     [Documentation]    Returns a network IP address (e.g. 172.16.0.0/24) from
     ...                a VLSM interface IP address (e.g. 172.16.0.1/24).
-    [Arguments]        ${interface}
+    [Arguments]        ${api_endpoint}
     # Add Get Moc-Noc API Endpoint keyword call here
     ${ipaddress}       Evaluate Ipaddress Module Expression    ${api_data['ip-address']}
     RETURN             ${ipaddress.network}
