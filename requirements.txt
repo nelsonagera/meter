@@ -1,2 +1,3 @@
 robotframework==6.0.2
 robotframework-robocop==2.3.0
+robotframework-requests
